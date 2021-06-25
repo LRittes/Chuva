@@ -1,5 +1,8 @@
 .box-details {
     margin: 20px 45px 0 25px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .box-down {
@@ -9,5 +12,36 @@
 }
 
 .btn-down {
+    display: flex;
+}
 
+.btn-down a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EE7A3A;
+    color: #fff;
+    border-radius: 5px;
+    transition: 100ms ease-in-out;
+}
+
+.btn-down a:hover {
+    transform: scale(1.04);
+}
+
+.help-down {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 10px 0;
+    color: #EE7A3A;
+    text-decoration: none;
+    transition: 100ms ease-in-out;
+}
+
+.help-down:hover {
+    transform: scale(1.04);
 }
