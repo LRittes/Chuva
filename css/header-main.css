@@ -46,11 +46,15 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-:focus{outline: none;}
+
 
 .box-lang select {
     border: none;
     background-color: #FDF1EB;
+}
+
+.box-lang select:focus{
+    outline: none;
 }
 
 .box-login {

@@ -1,0 +1,17 @@
+.body-content {
+    display: flex;
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.main-content .title.-t2 {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 900;
+    color: #EE7A3A;
+    padding-bottom: 20px;
+}

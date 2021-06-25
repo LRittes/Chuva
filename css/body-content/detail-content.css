@@ -1,0 +1,13 @@
+.box-details {
+    margin: 20px 45px 0 25px;
+}
+
+.box-down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn-down {
+
+}
