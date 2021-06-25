@@ -3,6 +3,7 @@
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 500;
+    height: 510px;
 }
 
 .box-down {
@@ -33,6 +34,10 @@
     transform: scale(1.04);
 }
 
+.down p {
+    margin-left: 5px;
+}
+
 .help-down {
     font-size: 14px;
     line-height: 25px;
@@ -44,4 +49,42 @@
 
 .help-down:hover {
     transform: scale(1.04);
+}
+
+.content-details {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content-details legend {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #FDF1EB;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content-details legend .title {
+    margin-left: 20px;
+}
+
+.descript {
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 10px 20px;
+    opacity: 0.6;
+    height: 370px;
+    overflow-y: scroll;
+}
+
+.descript::-webkit-scrollbar {
+    width: 3px;
+    border: none;
+}
+
+.descript::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
