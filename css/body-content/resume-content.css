@@ -1,0 +1,50 @@
+.resume {
+    margin: 40px 45px 40px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.resume .text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #725C5C;
+}
+
+.box-resume {
+    background-color: #FDF1EB;
+    padding: 10px 15px;
+}
+
+.-resume {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.-comment {
+    display: flex;
+    height: 125px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+}
+
+.comment-hidden {
+    height: 100px;
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.-see {
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #fff;
+    color: #EE7A3A;
+    position: absolute;
+    top: 91px;
+    left: 928px;
+    width: 90px;
+    text-align: end;
+}

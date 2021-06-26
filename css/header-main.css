@@ -41,11 +41,11 @@ main {
 .box-lang {
     display: flex;
     align-items: center;
-    margin-right: 22px;
+    margin-right: 24px;
+    width: 100px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 
 
 .box-lang select {
@@ -60,7 +60,7 @@ main {
 .box-login {
     display: inline-flex;
     align-items: center;
-   }
+}
 
 .login-text, .login-text p {
     display: flex;
