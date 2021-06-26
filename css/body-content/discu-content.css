@@ -4,30 +4,126 @@
     border-radius: 4px;
 }
 
-.discussions .text {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    color: #725C5C;
-}
-
 .box-discu {
     background-color: #FDF1EB;
     padding: 10px 15px;
 }
 
-.text.-discu {
+.text-discu {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
+    color: #725C5C;
+}
+
+.box-add-matter {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.box-add-matter img {
+    margin-right: 10px;
+}
+
+.box-add-matter p {
+    font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.textd.-td3 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #EE7A3A;
+}
+
+.img-discu img {
+    margin-right: 50px;
+}
+
+.box-add-matter .textd.-tp {
+    width: 600px;
+    text-align: center;
+}
+
+.add-matter {
+    position: absolute;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(#FFB354,#EE7A3A);
+    cursor: pointer;
 }
 
 .matter {
-    padding: 10px 25px;
-    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding: 25px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.15);
 }
 
-.text.-td4 {
+.textd {
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+    color: #EE7A3A;
+}
+
+.textd.-td4 {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #EE7A3A;;
+}
+
+.textd.-td5 {
+    color: #725C5C;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.textd.-tp {
+    color: #725C5C;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.box-like-answer {
+    display: flex;
+}
+
+.box-like-answer > * {
+    margin-right: 10px;
+}
+
+.box-like-answer  a {
+    text-decoration: none;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #757575b2;
+}
+
+.box-like-answer .fas {
+    color: #EE7A3A;
 }
