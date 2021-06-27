@@ -1,5 +1,7 @@
 .form-hidden {
     display: none;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .wrapper-form-hidden {
@@ -8,6 +10,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 10px;
+    margin-bottom: 50px;
 }
 
 .wrapper-form-hidden form {
@@ -58,7 +61,7 @@
 .box-btn-f .box-submit {
     height: 33px;
     width: 25%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: none;
     background: linear-gradient(#FFB354,#EE7A3A);
     text-decoration: none;
     display: flex;
