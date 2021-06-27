@@ -71,6 +71,11 @@
     border: none;
     background: linear-gradient(#FFB354,#EE7A3A);
     cursor: pointer;
+    transition: 150ms ease-in-out;
+}
+
+.add-matter:hover {
+    transform: scale(1.04);
 }
 
 .matter {

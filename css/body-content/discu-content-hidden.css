@@ -1,0 +1,82 @@
+.form-hidden {
+    display: none;
+}
+
+.wrapper-form-hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.wrapper-form-hidden form {
+    width: 90%;
+}
+
+.-top {
+    display: block;
+    margin: 15px 0 5px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#topic-content {
+    width: 100%;
+    padding: 8px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.box-btn-f {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: -5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-b-i {
+    width: 75%;
+    padding: 5px 0 5px 8px;
+    background: #EAF1F2;
+}
+
+.btn-b-i > * {
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.btn-b-i .italic {
+    font-family: serif;
+    font-style: italic;
+}
+
+.box-btn-f .box-submit {
+    height: 33px;
+    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: linear-gradient(#FFB354,#EE7A3A);
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 150ms ease-in-out;
+}
+
+.box-submit:hover {
+    transform: scale(1.04);
+}
+
+.box-btn-f .box-submit .sub {
+    font-family: "Quicksand",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
