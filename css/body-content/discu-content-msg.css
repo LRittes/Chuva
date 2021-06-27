@@ -1,0 +1,47 @@
+.msg {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.-td5.-tds, .-td4.-tds {
+    text-decoration: none;
+    color: #EE7A3A;
+    margin: 20px 0;
+}
+
+.addT {
+    height: 33px;
+    width: 25%;
+    border: none;
+    background: linear-gradient(#FFB354,#EE7A3A);
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 150ms ease-in-out;
+}
+
+.addT:hover {
+    transform: scale(1.04);
+}
+
+.addT .sub {
+    font-family: "Quicksand",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+.-box-h {
+    width: 20%;
+    margin-top: 20px;
+}

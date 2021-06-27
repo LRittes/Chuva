@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/body-content/resume-content.css">
     <link rel="stylesheet" href="css/body-content/discu-content.css">
     <link rel="stylesheet" href="css/body-content/discu-content-hidden.css">
+    <link rel="stylesheet" href="css/body-content/discu-content-msg.css">
     <title>Site</title>
 </head>
 <body>
@@ -128,21 +129,35 @@
             <div class="box-discu">
                 <h3 class="text-discu">Discussões</h3>
             </div>
+            <div class="msg">
+                <h4 class="textd -td4 -tds">
+                    Seu tópico foi enviado com sucesso! :D
+                </h4>
+                <h5 class="textd -td5">
+                    Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
+                </h5>
+                <a href="#" class="textd -td5 -tds">
+                    Descubra outros trabalhos!
+                </a>
+                <button class="addT -box-h" onclick="createTopi()">
+                    <p class="sub" id="add-n-topic">criar novo tópico</p>
+                </button>
+            </div>
             <div class="form-hidden">
                 <div class="wrapper-form-hidden">
                     <p class="textd -tp">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
                     <form action="" method="post">
-                        <label for="topic" class="textd -td4 -top">Assunto</label>
-                        <input type="text" name="topic" id="topic-content" placeholder="Defina um tópico sucinto para notificar os autores...">
+                        <label for="topi" class="textd -td4 -top">Assunto</label>
+                        <input type="text" name="topic" id="topi-content" class="box-insert" placeholder="Defina um tópico sucinto para notificar os autores...">
                         <label for="topic-content" class="textd -td4 -top" id="">Conteudo</label>
-                        <textarea name="topic-content" id="topic-content" cols="30" rows="10"></textarea>
+                        <textarea name="topic-content" id="topic-content" class="box-insert" cols="30" rows="10"></textarea>
                     </form>
                     <div class="box-btn-f">
                         <div class="btn-b-i">
                             <button class="bold">B</button>
                             <button class="italic">I</button>
                         </div>
-                        <a href="#" class="box-submit" onclick="addTopi()"><p class="sub">Enviar</p></a>
+                        <button class="box-submit" onclick="addTopi()"><p class="sub">Enviar</p></button>
                     </div>
             </div>
             </div>
@@ -174,16 +189,16 @@
                     Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
                 </p>
                 <div class="box-like-answer">
-                    <a href="">
+                    <a href="#">
                         <i class="fas fa-ellipsis-v"></i>
                     </a>
                     <a href="#">
                         <i class="fas fa-heart"></i>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>1 like</p>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <p>1 resposta</p>
                     </a>
                 </div>

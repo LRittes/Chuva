@@ -21,10 +21,9 @@
     display: block;
     margin: 15px 0 5px;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
-#topic-content {
+.box-insert {
     width: 100%;
     padding: 8px 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -68,6 +67,7 @@
     align-content: center;
     justify-content: center;
     transition: 150ms ease-in-out;
+    cursor: pointer;
 }
 
 .box-submit:hover {

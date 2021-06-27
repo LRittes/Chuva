@@ -19,8 +19,20 @@ function addMatter(){
 
 addM.addEventListener('click', addMatter)
 
-const sendTopic = document.querySelector('.box-submit')
+const showMSG = document.querySelector('.box-submit')
+const msgM = document.querySelector('.msg')
 
-function addTopi(){
-    
+function addTopi() {
+    msgM.style.cssText = 'display: flex;'
+    boxAddMatter.style.cssText = 'display: none;'
+    formHidden.style.cssText = 'display: none;'
+}
+
+showMSG.addEventListener('click', addTopi)
+
+const backAdd = document.querySelector('#add-n-topic')
+
+function createTopi() {
+    formHidden.style.cssText = 'display: block;'
+    msgM.style.cssText = 'display: none;'
 }
