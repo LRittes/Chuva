@@ -66,7 +66,7 @@ showMSG.addEventListener('click', () => {
     wrapS.insertAdjacentElement("beforeend", inseI)
     
     let tpm = document.createElement('p')
-    tpm.style.cssText = "padding: 10px 0; color: #725C5C; font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;"
+    tpm.style.cssText = "padding: 10px 0; color: #725C5C; font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;"
     tpm.innerHTML = 'Aguardando feedback dos autores'
 
     wrapS.insertAdjacentElement("beforeend", tpm)
