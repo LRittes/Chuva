@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 22rem;
-    height: 100%;
+    height: 100vh;
     background-color: #fff;
     position: fixed;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -43,4 +43,39 @@
 
 .navbtn:active {
     background-color: #EE7A3A;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar-left {
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        height: 4rem;
+        box-shadow: none;
+    }
+
+    .navbar-left img {
+        display: none;
+    }
+
+    .main-title {
+        width: 20%;
+        height: 100%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+    }
+    .navbtn {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        border-bottom: none;
+        border-right: 1px solid rgba(105, 77, 77, 0.171);
+        font-size: 1.5rem;
+    }
 }

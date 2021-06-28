@@ -57,6 +57,10 @@ main {
     outline: none;
 }
 
+#lang {
+    font-size: 1.6rem;
+}
+
 .box-login {
     display: inline-flex;
     align-items: center;
@@ -71,4 +75,19 @@ main {
 
 .img-profile {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+        margin: 0;
+    }
+
+    .h-main {
+        padding: 0.5rem 0;
+    }
+
+    .box-lang img {
+        display: none;
+    }
 }

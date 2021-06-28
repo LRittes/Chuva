@@ -8,40 +8,57 @@
 }
 
 .video {
+    position: relative;
+    width: 78rem;
+    height: 44rem;
+}
+
+.video .img-fund {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-weight: 900;
     line-height: 2.5rem;
-    width: 78.3rem;
-    height: 43.9rem;
+    width: 100%;
+    height: 100%;
     padding: 4.5rem 3.0rem;
-    background: url('../../assets/img/body-content/dewey\ 1.png');
+    position: absolute;
 }
 
-.video .title {
+.video-content .title {
     font-size: 2.6rem;
     color: #fff;
 }
 
-.video .aut {
+.video-content .img-desc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.video-content .img-desc .autor {
+    margin-left: 2rem;
+}
+
+.video-content .img-autor{
+    border: 2px solid #EE7A3A;
+    border-radius: 50%;
+    margin-right: 2.0rem;
+}
+
+.video-content .aut {
     font-size: 3.4rem;
     margin-bottom: 1.0rem;
 }
 
-.video .subt {
+.video-content .subt {
     font-size: 2.0rem;
-}
-
-.video .img-desc{
-    display: flex;
-    align-items: center;
-}
-
-.video .img-autor{
-    border: 2px solid #EE7A3A;
-    border-radius: 50%;
-    margin-right: 2.0rem;
 }
 
 .main-content .title.-t2 {
@@ -51,4 +68,25 @@
     font-weight: 900;
     color: #EE7A3A;
     padding-bottom: 2.0rem;
+}
+
+@media screen and (max-width: 768px) {
+    .body-content {
+        display: block;
+    }
+
+    .main-content {
+        height: 100%;
+        margin-right: 3rem;
+    }
+
+    .video {
+        margin: 0;
+        width: auto;
+    }
+
+    .video .img-fund {
+        height: 100%;
+        width: 100%;
+    }
 }

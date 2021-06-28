@@ -1,7 +1,10 @@
 #footer {
+    
     margin-left: 22rem;
 }
 
 #footer img {
+    width: 100%;
+    height: 100%;
     margin-left: 4rem;
 }
