@@ -114,19 +114,26 @@
 
 .box-like-answer {
     display: flex;
+    align-items: center;
 }
 
-.box-like-answer > * {
+.box-like-answer *:nth-child(1n) {
     margin-right: 10px;
 }
 
-.box-like-answer  a {
+.box-like-answer  a, .hm-like, .hm-answer {
     text-decoration: none;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     line-height: 19px;
     font-weight: 300;
     color: #757575b2;
+}
+
+.likes, .answer {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .box-like-answer .fas {

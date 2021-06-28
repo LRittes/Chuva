@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/body-content/discu-content.css">
     <link rel="stylesheet" href="css/body-content/discu-content-hidden.css">
     <link rel="stylesheet" href="css/body-content/discu-content-msg.css">
+    <link rel="stylesheet" href="css/body-content/discu-content-answer.css">
     <title>Site</title>
 </head>
 <body>
@@ -178,7 +179,6 @@
                     <p>Criar tópico</p>
                 </button>
             </div>
-        
             <div class="box-matter">
                 <div class="matter">
                     <h4 class="textd -td4">
@@ -191,18 +191,16 @@
                         Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
                     </p>
                     <div class="box-like-answer">
-                        <a href="#">
+                        <button class="answer" id="btn-answers">
                             <i class="fas fa-ellipsis-v"></i>
                         </a>
-                        <a href="#">
+                        <button class="likes" id="btn-like" onclick="addLike()">
                             <i class="fas fa-heart"></i>
-                        </a>
-                        <a href="#">
-                            <p>1 like</p>
-                        </a>
-                        <a href="#">
-                            <p>1 resposta</p>
-                        </a>
+                        </button>
+                        <p class="textd -tp" id="hm-like">4 like
+                        </p>
+                        <p class="textd -tp" id="hm-answer">0 resposta
+                        </p>
                     </div>
                 </div>
                 <div class="matter">
@@ -216,18 +214,66 @@
                         Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
                     </p>
                     <div class="box-like-answer">
-                        <a href="">
+                        <button class="answer" id="btn-answers2" onclick="addA()">
                             <i class="fas fa-ellipsis-v"></i>
-                        </a>
-                        <a href="#">
+                        </button>
+                        <button class="likes" id="btn-like2" onclick="addLike()">
                             <i class="fas fa-heart"></i>
-                        </a>
-                        <a href="#">
-                            <p>1 like</p>
-                        </a>
-                        <a href="#">
-                            <p>1 resposta</p>
-                        </a>
+                        </button>
+                        <p class="textd -tp" id="hm-like2">4 like
+                        </p>
+                        <p class="textd -tp" id="hm-answer2">4 resposta
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-answers">
+                <div class="wrapper-answers">
+                    <div class="header-answers">
+                        <div class="box-autor-che">
+                            <h4 class="texta -tas">Adriano da Silva</h4>
+                            <div class="wrapper-a-c">
+                                <h5 class="texta -tac">Autor</h5>
+                                <img src="assets/img/discussion-content/check-ora.png" alt="">
+                            </div>
+                        </div>
+                        <p class="texta -tap">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo?</p>  
+                    </div>
+                </div>
+                <div class="wrapper-answers">
+                    <div class="header-answers">
+                        <div class="box-autor-che">
+                            <h4 class="texta -tas">Carlos Henrique Santos</h4>
+                            <div class="wrapper-a-c">
+                                <h5 class="texta -tac">Coautor</h5>
+                                <img src="assets/img/discussion-content/check-ora.png" alt="">
+                            </div>
+                        </div>
+                        <p class='texta -tap'>Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo formativo situado impacto de processo formativo.
+
+                        Obrigada pela resposta, muito interessante o seu trabalho! </p>                            
+                    </div>
+                </div>
+                <div class="wrapper-answers">
+                    <div class="header-answers">
+                        <div class="box-autor-che">
+                            <h4 class="texta -tas">Carmila Ferreira Andrade</h4>
+                        </div>
+                        <p class='texta -tap'>Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+
+                        Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.</p>                            
+                    </div>
+                </div>
+                <div class="wrapper-answers">
+                    <div class="header-answers">
+                        <div class="box-autor-che">
+                            <h4 class="texta -tas">Ana Carolina</h4>
+                            <div class="wrapper-a-c">
+                                <h5 class="texta -tac">Coautor</h5>
+                                <img src="assets/img/discussion-content/check-ora.png" alt="">
+                            </div>
+                        </div>
+                        <p class='texta -tap'>Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.</p>  
                     </div>
                 </div>
             </div>

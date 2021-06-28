@@ -1,3 +1,5 @@
+// função para mostrar o conteudo completo do resumo
+
 const seeM = document.querySelector('.-see');
 const boxHidden = document.querySelector('.comment-hidden');
 
@@ -7,6 +9,8 @@ function show(){
 };
 
 seeM.addEventListener('click', show);
+
+// função para retirar a msg de criar tópico mostrar o formulario e a msg de enviado  
 
 const addM = document.querySelector('.add-matter')
 const boxAddMatter = document.querySelector('.box-add-matter')
@@ -103,3 +107,34 @@ showMSG.addEventListener('click', () => {
     
     wrapM.insertAdjacentElement("beforeend",tp)
 })
+
+// função para dar like nos comentarios no tópicos
+
+const like = document.querySelector('#btn-like')
+let hmLike = document.querySelector('#hm-like')
+let likes = 4
+
+like.addEventListener('click', () => {
+    likes += 1;
+    hmLike.innerHTML = `${likes} likes`;
+})
+
+const like2 = document.querySelector('#btn-like2')
+let hmLike2 = document.querySelector('#hm-like2')
+let likes2 = 4
+
+like2.addEventListener('click', () => {
+    likes2 += 1;
+    hmLike2.innerHTML = `${likes2} likes`;
+})
+
+// função para mostrar os comentarios
+
+const answer = document.querySelector('#btn-answer2')
+const boxComen = document.querySelector('.box-answers')
+
+function addA(){
+    boxComen.style.cssText = 'display: block;'
+}
+
+answer.addEventListener('click', addA())
