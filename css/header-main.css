@@ -1,5 +1,5 @@
 main {
-    margin-left: 220px;
+    margin-left: 22rem;
 }
 
 .h-main {
@@ -14,20 +14,20 @@ main {
 }
 
 .-t2 {
-    font-size: 22px;
-    line-height: 1.6rem;
+    font-size: 2.2rem;
+    line-height: 2rem;
     font-weight: 400;
 }
 
 .-t4 {
-    font-size: 14px;
-    line-height: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     font-weight: 400;
 }
 
 .t5 {
-    font-size: 12px;
-    line-height: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     font-weight: 400;
 }
 
@@ -41,9 +41,9 @@ main {
 .box-lang {
     display: flex;
     align-items: center;
-    margin-right: 24px;
-    width: 100px;
-    padding: 5px;
+    margin-right: 2.4rem;
+    width: 10rem;
+    padding: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -66,7 +66,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 4px;
+    margin-right: 0.4rem;
 }
 
 .img-profile {

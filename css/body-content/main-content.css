@@ -3,8 +3,8 @@
 }
 
 .main-content {
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 2.0rem;
+    margin-left: 5.0rem;
 }
 
 .video {
@@ -12,25 +12,25 @@
     flex-direction: column;
     justify-content: space-between;
     font-weight: 900;
-    line-height: 25px;
-    width: 783px;
-    height: 439px;
-    padding: 45px 30px;
+    line-height: 2.5rem;
+    width: 78.3rem;
+    height: 43.9rem;
+    padding: 4.5rem 3.0rem;
     background: url('../../assets/img/body-content/dewey\ 1.png');
 }
 
 .video .title {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #fff;
 }
 
 .video .aut {
-    font-size: 34px;
-    margin-bottom: 10px;
+    font-size: 3.4rem;
+    margin-bottom: 1.0rem;
 }
 
 .video .subt {
-    font-size: 20px;
+    font-size: 2.0rem;
 }
 
 .video .img-desc{
@@ -41,14 +41,14 @@
 .video .img-autor{
     border: 2px solid #EE7A3A;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 2.0rem;
 }
 
 .main-content .title.-t2 {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
     font-weight: 900;
     color: #EE7A3A;
-    padding-bottom: 20px;
+    padding-bottom: 2.0rem;
 }

@@ -1,72 +1,72 @@
 .discussions {
-    margin: 40px 45px 40px 50px;
+    margin: 4.0rem 4.5rem 4.0rem 5.0rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
 .box-discu {
     background-color: #FDF1EB;
-    padding: 10px 15px;
+    padding: 1.0rem 1.5rem;
 }
 
 .text-discu {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 500;
     color: #725C5C;
 }
 
 .box-add-matter {
-    height: 250px;
+    height: 25.0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 20px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 3.0rem 2.0rem;
+    padding-bottom: 3.0rem;
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.1);
     position: relative;
 }
 
 .box-add-matter img {
-    margin-right: 10px;
+    margin-right: 1.0rem;
 }
 
 .box-add-matter p {
     font-family: "Quicksand", Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.6rem;
     text-align: center;
     color: #fff;
 }
 
 .textd.-td3 {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
-    line-height: 21px;
+    line-height: 2.1rem;
     color: #EE7A3A;
 }
 
 .img-discu img {
-    margin-right: 50px;
+    margin-right: 5.0rem;
 }
 
 .box-add-matter .textd.-tp {
-    width: 600px;
+    width: 60.0rem;
     text-align: center;
 }
 
 .add-matter {
     position: absolute;
-    top: 230px;
+    top: 23.0rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 35px;
-    margin-right: 20px;
+    width: 15.0rem;
+    height: 3.5rem;
+    margin-right: 2.0rem;
     border-radius: 6px;
     border: none;
     background: linear-gradient(#FFB354,#EE7A3A);
@@ -79,11 +79,11 @@
 }
 
 .matter {
-    padding: 25px 25px;
+    padding: 2.5rem 2.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.15);
+    margin: 2.0rem;
+    border-radius: .6rem;
+    box-shadow: .0rem .0rem 1.0rem 0..5rem rgba(0, 0, 0, 0.15);
 }
 
 .textd {
@@ -93,23 +93,23 @@
 
 .textd.-td4 {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
 }
 
 .textd.-td5 {
     color: #725C5C;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 .textd.-tp {
     color: #725C5C;
-    margin: 10px 0;
+    margin: 1.0rem 0;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
 
 .box-like-answer {
@@ -118,14 +118,14 @@
 }
 
 .box-like-answer *:nth-child(1n) {
-    margin-right: 10px;
+    margin-right: 1.0rem;
 }
 
 .box-like-answer  a, .hm-like, .hm-answer {
     text-decoration: none;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
     font-weight: 300;
     color: #757575b2;
 }

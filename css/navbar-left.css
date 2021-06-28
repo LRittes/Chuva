@@ -1,7 +1,7 @@
 .navbar-left {
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 22rem;
     height: 100%;
     background-color: #fff;
     position: fixed;
@@ -12,11 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 68px;
+    height: 6.8rem;
     width: 100%;
     font-family: Roboto, Arial, Helvetica,sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 3rem;
     background: linear-gradient(#FFB354,#EE7A3A);
     color: #fff;
 }
@@ -27,10 +27,10 @@
 }
 
 .navbtn{
-    padding: 7px 24px;
+    padding: 0.7rem 2.4rem;
     font-family: "Quicksand";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #725C5C;
     text-decoration: none;
     border-bottom: 1px solid rgba(105, 77, 77, 0.171);
