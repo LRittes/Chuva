@@ -60,6 +60,7 @@
     }
 
     .main-title {
+        font-size: 2rem;
         width: 20%;
         height: 100%;
     }
@@ -78,5 +79,6 @@
         width: 100%;
         border-bottom: none;
         border-right: 1px solid rgba(105, 77, 77, 0.171);
+        padding: 0.7rem 0.9rem;
     }
 }
