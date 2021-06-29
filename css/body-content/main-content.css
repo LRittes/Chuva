@@ -77,7 +77,7 @@
 
     .main-content {
         height: 100%;
-        margin-right: 3rem;
+        margin: 3.2rem 3.5rem;
     }
 
     .video {
@@ -88,5 +88,9 @@
     .video .img-fund {
         height: 100%;
         width: 100%;
+    }
+
+    .img-autor {
+        height: 50%;
     }
 }

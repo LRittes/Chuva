@@ -3,7 +3,6 @@
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    height: 51.0rem;
 }
 
 .box-down {
@@ -87,4 +86,19 @@
 .descript::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-details {
+        margin-left: 3.2rem;
+    }
+
+    .btn-down a img{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .descript {
+        height: 15rem;
+    }
 }

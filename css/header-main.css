@@ -84,10 +84,26 @@ main {
     }
 
     .h-main {
+        align-content: center;
         padding: 0.5rem 0;
     }
 
     .box-lang img {
         display: none;
+    }
+
+    .box-login a img {
+        width: 4rem;
+        height: 4rem;
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    #lang {
+        appearance: none;
+    }
+
+    .box-lang {
+        width: 7rem;
     }
 }

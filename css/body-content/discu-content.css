@@ -49,6 +49,10 @@
     color: #EE7A3A;
 }
 
+.img-discu {
+    display: flex;
+}
+
 .img-discu img {
     margin-right: 5.0rem;
 }
@@ -138,4 +142,19 @@
 
 .box-like-answer .fas {
     color: #EE7A3A;
+}
+
+@media screen and (max-width: 425px) {
+    .add-matter img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .img-discu img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .box-like-answer i {
+        transform: scale(0.65);
+    }
 }

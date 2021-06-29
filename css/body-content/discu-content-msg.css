@@ -46,3 +46,13 @@
     width: 20%;
     margin-top: 2.0rem;
 }
+
+@media screen and (max-width: 425px) {
+    .img-check-add {
+        transform: scale(0.5);
+    }
+
+    .wrap-img-check-add {
+        transform: scale(0.8);
+    }
+}

@@ -53,3 +53,9 @@
     font-weight: 400;
     color: #4D4D4D;
 }
+
+@media screen and (max-width: 425px) {
+    .wrapper-a-c img {
+        transform: scale(0.5);
+    }
+}

@@ -1,6 +1,6 @@
 // função para mostrar o conteudo completo do resumo
 
-const seeM = document.querySelector('.-see');
+const seeM = document.querySelector('.see');
 const boxHidden = document.querySelector('.comment-hidden');
 
 function show(){
@@ -56,17 +56,20 @@ showMSG.addEventListener('click', () => {
     dshow.insertAdjacentElement("afterbegin",Matter)
 
     wrapS = document.createElement('div')
-    wrapS.style.cssText = 'text-align: center;position: absolute; top: 20%; left: 35%; z-index: 10;'
+
+    wrapS.style.cssText = 'text-align: center;position: absolute; top: 20%; left: 40%;'
+    wrapS.classList.add('wrap-img-check-add')
 
     Matter.insertAdjacentElement('afterbegin', wrapS)
 
     let inseI = document.createElement('img')
     inseI.src = '../assets/img/discussion-content/check.png'
+    inseI.classList.add('img-check-add')
 
     wrapS.insertAdjacentElement("beforeend", inseI)
     
     let tpm = document.createElement('p')
-    tpm.style.cssText = "padding: 10px 0; color: #725C5C; font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;"
+    tpm.style.cssText = "padding: 1.0rem 0; color: #725C5C; font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;"
     tpm.innerHTML = 'Aguardando feedback dos autores'
 
     wrapS.insertAdjacentElement("beforeend", tpm)
@@ -77,7 +80,7 @@ showMSG.addEventListener('click', () => {
     linkE.classList.add('textd')
     linkE.classList.add('-td5')
     linkE.classList.add('-tds')
-    linkE.style.cssText = 'cursor: pointer; font-size: 16px; font-weight: 700;'
+    linkE.style.cssText = 'cursor: pointer; font-size: 1.6rem; font-weight: 700;'
 
     wrapS.insertAdjacentElement('beforeend', linkE)
     

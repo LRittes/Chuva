@@ -17,3 +17,9 @@ body {
         font-size: 40%;
     }
 }
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 20%;
+    }
+}
