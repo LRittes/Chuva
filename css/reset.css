@@ -12,6 +12,12 @@ body {
     background-color: #fff;
 }
 
+@media screen and(max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     html {
         font-size: 40%;
