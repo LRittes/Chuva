@@ -1,2 +1,2 @@
-# estagio-chuva
-Site criado para a vaga de estágio
+# Estagio na Chuva
+Site criado como desafio para a seleção da vaga de estágio
