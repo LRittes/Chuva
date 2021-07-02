@@ -26,14 +26,19 @@
     flex-direction: column;
 }
 
-.navbtn{
+.navbtn {
+    text-decoration: none;
+}
+
+.navbtn p {
     padding: 0.7rem 2.4rem;
     font-family: "Quicksand";
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #725C5C;
     text-decoration: none;
     border-bottom: 1px solid rgba(105, 77, 77, 0.171);
+    transition: background 150ms;
 }
 
 .navbtn:hover {
@@ -43,6 +48,18 @@
 
 .navbtn:active {
     background-color: #EE7A3A;
+}
+
+.navbtn:focus {
+    background-color: #FDF1EB;   
+}
+
+.navbtn:focus::before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: #EE7A3A;
+    float: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -79,6 +96,10 @@
         width: 100%;
         border-bottom: none;
         border-right: 1px solid rgba(105, 77, 77, 0.171);
-        padding: 0.7rem 0.9rem;
+        padding: 0;
+    }
+
+    .navbtn p {
+        border-bottom: none;
     }
 }
