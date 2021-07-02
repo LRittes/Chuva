@@ -20,6 +20,7 @@
     width: 25%;
     border: none;
     background: linear-gradient(#FFB354,#EE7A3A);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     text-decoration: none;
     display: flex;
     align-content: center;
