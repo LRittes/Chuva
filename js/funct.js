@@ -1,3 +1,17 @@
+// monstrar o menu no mobile
+
+let showN = true;
+
+const navbarLeft = document.querySelector(".navbar-left");
+const menuToggle = navbarLeft.querySelector(".menu-toggle");
+
+menuToggle.addEventListener('click', () => {
+    navbarLeft.classList.toggle("on", showN);
+
+    showN = !showN;
+    console.log('DEU BOM')
+})
+
 // função para mostrar o conteudo completo do resumo
 
 const seeM = document.querySelector('.see');
@@ -133,11 +147,12 @@ like2.addEventListener('click', () => {
 
 // função para mostrar os comentarios
 
-const answer = document.querySelector('#btn-answer2')
-const boxComen = document.querySelector('.box-answers')
+const answer = document.querySelector('#btn-answer2');
+const boxComen = document.querySelector('.box-answers');
 
 function addA(){
     boxComen.style.cssText = 'display: block;'
-}
+};
 
-answer.addEventListener('click', addA())
+answer.addEventListener('click', addA) 
+
