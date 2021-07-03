@@ -6,10 +6,12 @@ const navbarLeft = document.querySelector(".navbar-left");
 const menuToggle = navbarLeft.querySelector(".menu-toggle");
 
 menuToggle.addEventListener('click', () => {
+
+    document.body.style.overflow = showN ? 'hidden':'initial';
+
     navbarLeft.classList.toggle("on", showN);
 
     showN = !showN;
-    console.log('DEU BOM')
 })
 
 // função para mostrar o conteudo completo do resumo

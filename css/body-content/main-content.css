@@ -4,12 +4,12 @@
 
 .main-content {
     margin-top: 2.0rem;
-    margin-left: 2.0rem;
+    margin-left: 5.0rem;
 }
 
 .video {
     position: relative;
-    width: 76rem;
+    width: 78rem;
     height: 44rem;
 }
 
@@ -92,5 +92,15 @@
 
     .img-autor {
         height: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-content {
+        margin-left: 0.5rem;
+    }
+
+    .video {
+        width: 98vw;
     }
 }

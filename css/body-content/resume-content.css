@@ -50,3 +50,9 @@
     cursor: pointer;
     position: absolute;
 }
+
+@media screen and (max-width: 425px) {
+    .resume {
+        margin: 4rem 0.5rem;
+    }
+}
