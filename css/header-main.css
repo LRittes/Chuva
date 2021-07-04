@@ -1,5 +1,6 @@
 main {
-    margin-left: 22rem;
+    position: absolute;
+    left: 22rem;
 }
 
 .h-main {
@@ -79,13 +80,14 @@ main {
 
 @media screen and (max-width: 768px) {
     main {
-        display: block;
-        margin: 0;
+        position: initial;
+        width: 100vw;
     }
 
     .h-main {
         align-content: center;
         padding: 0.5rem 0;
+        width: 100vw;
     }
 
     .box-lang img {
@@ -98,7 +100,7 @@ main {
     }    
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {    
     #lang {
         appearance: none;
     }
@@ -109,5 +111,5 @@ main {
 
     .box-login-lang {
         display: block;
-    }
+    }   
 }
