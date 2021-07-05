@@ -79,7 +79,8 @@ showMSG.addEventListener('click', () => {
     Matter.insertAdjacentElement('afterbegin', wrapS)
 
     let inseI = document.createElement('img')
-    inseI.src = '../assets/img/discussion-content/check.png'
+    inseI.src = 'assets/img/discussion-content/check.png'
+    
     inseI.classList.add('img-check-add')
 
     wrapS.insertAdjacentElement("beforeend", inseI)
